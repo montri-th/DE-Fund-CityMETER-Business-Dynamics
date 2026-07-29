@@ -8,7 +8,7 @@ Interactive single-page explainer for the funding consideration of **CityMETER: 
 - Design system: **Landometer Design System v0.8.8**
 - Release status: **provisional / public / noindex**
 
-Open [`index.html`](./index.html) directly in a modern browser. The file is standalone: approved logo assets, Thai/Latin font subsets, styles, interactions, print rules, and machine-readable Build Card/QA records are embedded.
+Open [`index.html`](./index.html) directly in a modern browser. The file is standalone: the project-supplied logo asset, Thai/Latin font subsets, styles, interactions, print rules, and machine-readable Build Card/QA records are embedded.
 
 The page distinguishes the proposed co-implementing role of depa from a signed commitment. It also keeps source rights, coverage, comparability, staffing, supplier pricing, and working-capital items visible as gates that must be closed before submission or contract execution.
 
