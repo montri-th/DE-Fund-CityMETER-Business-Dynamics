@@ -21,4 +21,16 @@ Profile: `data.explainer`
 
 ## Public rendered checks
 
-Pending deployment of the release branch. Record the final URL, viewport, overflow metrics, theme, disclosure, search/filter, and decision-toggle tests here before merging to production.
+- Released URL: `https://montri-th.github.io/DE-Fund-CityMETER-Business-Dynamics/`
+- Released commit: `4a3e720e23b3617720f1e57440c11be4f311771e` (squash merge of PR #2).
+- Desktop viewport: 1348 × 936 px; `documentElement.clientWidth` and `scrollWidth` were both 1348 px, so root horizontal overflow was 0 px.
+- Released title and H1 matched the revised decision-first copy.
+- Hero and decision gradient scenes were visually inspected in light mode; white foreground copy remained legible over the deterministic scrim and both scenes retained a useful entry/closure role.
+- The long project-brief filename and SHA values are closed by default behind `ดูชื่อไฟล์และรหัสตรวจสอบ`; identifier tokens resolve to `overflow-wrap:anywhere`, and the source-ledger table uses fixed layout. Static responsive inspection passed with the disclosure content present at 320, 360, 390, and 768 px.
+- Decision copy toggle: passed for open and closed states, including `aria-expanded`, hidden state, and button-label change.
+- Resource search: `ISO` returned 1 of 17 records.
+- Resource filter: `ทีมและ CV` returned 12 of 17 records; reset to `ทั้งหมด` returned 17 of 17 records.
+- Theme control: passed through light, dark, and system states with the stored preference and accessible label updating correctly.
+- Evidence links: 11 public web-safe CV PDF links remained present.
+- Console: no warning or error originated from the released page. Logged errors came only from the cloud-browser extension URL, not the site origin.
+- Constraint: the cloud-browser viewport could not be resized for a second mobile screenshot. Mobile readiness is therefore supported by the supplied real-device screenshot diagnosis plus static responsive checks, not claimed as a cloud-rendered mobile visual test.

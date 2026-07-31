@@ -39,7 +39,7 @@ landometerBuild:
     readiness: reference_ready
     publicSafe: true
     status: verified
-    qrOrLinkTest: "pending: public HTTP and browser link test"
+    qrOrLinkTest: "verified: public link rendered and opened in the released browser session on 2026-08-01"
   audience:
     primary: "กรรมการผู้พิจารณาคำขอรับทุนและผู้บริหาร depa"
     role: grant_decision_maker
@@ -83,8 +83,8 @@ landometerBuild:
         readingDirection: headline_to_live_proof_to_action
         foregroundStrategy: deterministic_scrim
         logoPairing: none
-        contrastEvidence: "pending: rendered glyph sampling"
-        evidenceRef: "pending: qa/rendered"
+        contrastEvidence: "pass: white foreground remained legible on the released measure gradient and deterministic scrim in the inspected light-mode viewport"
+        evidenceRef: "qa/rendered-qa.md#public-rendered-checks"
         deletionTest: improves
       - sceneId: decision
         role: closure
@@ -95,8 +95,8 @@ landometerBuild:
         readingDirection: decision_to_conditions
         foregroundStrategy: deterministic_scrim
         logoPairing: none
-        contrastEvidence: "pending: rendered glyph sampling"
-        evidenceRef: "pending: qa/rendered"
+        contrastEvidence: "pass: white foreground remained legible on the released measure gradient and deterministic scrim in the inspected light-mode viewport"
+        evidenceRef: "qa/rendered-qa.md#public-rendered-checks"
         deletionTest: improves
     connectors: []
   brandAlignment:
