@@ -1,0 +1,286 @@
+landometerBuild:
+  dsVersion: 0.8.8
+  schemas:
+    buildCard: 0.8.8
+    manifest: "2.0"
+    tokens: 6
+  legacyReadOnlyBaseline:
+    authoringMasterVersion: 0.8.7
+    manifestVersion: "2.0"
+    tokenSchemaVersion: 6
+  artifact:
+    name: "CityMETER: Business Dynamics — ทำให้ข้อมูลทะเบียนใช้ประโยชน์ในระดับเมืองได้"
+    product: citymeter
+    profile: data.explainer
+    pageKind: proposal
+    pageKindSourceRef: "Product_Brief_CityMETER_Landometer_Aligned_v6.md@sha256:3c84c6b51fe0f8a288090ddaeb5b732c53f30234241103daa1d5a8baa0914448#Purpose+0.3-Operating-Rule"
+    delivery: deployable_public
+    language: th
+    additionalLanguages: []
+    generationMode: not_applicable
+    outputType: explainer
+  export:
+    platform: not_applicable
+    canvasPx: not_applicable
+    aspectRatio: not_applicable
+    safeArea: not_applicable
+    exportScale: not_applicable
+    format: not_applicable
+    altOrCaptionPackage: not_applicable
+    deliveredSizeTest: not_applicable
+  publication:
+    evidenceStatus: source_limited
+    visibility: public
+    indexable: false
+    canonicalUrl: "https://montri-th.github.io/DE-Fund-CityMETER-Business-Dynamics/"
+  destination:
+    required: true
+    url: "https://landometer.com/v3/citymeter?d=businessDynamics"
+    readiness: reference_ready
+    publicSafe: true
+    status: verified
+    qrOrLinkTest: "pending: public HTTP and browser link test"
+  audience:
+    primary: "กรรมการผู้พิจารณาคำขอรับทุนและผู้บริหาร depa"
+    role: grant_decision_maker
+    adoptionRoleRegistry:
+      owner: not_applicable
+      version: not_applicable
+      roles: []
+  voice:
+    applies: true
+    locales:
+      - locale: th
+        ruleRefs: [VOICE-01, COPY-01, LOCALE-TH-01, CITYMETER-VOICE-01]
+        normativeSourceRef: "landometer-design-system-v0.8.8-authoring-master@sha256:8d763489eb7d6b553eeb625ceecace5a301208ef68ab7ac9711c1a2d091c4d48"
+        authoringBasisRef: "CityMETER_DE_Fund_Application_Submission_Candidate_v5_2026-07-31.md@sha256:734c897a2b52bac340d7ad7d47f833cd682e54e231caac42bd105458a8f8f4da"
+        fixtureSetRef: thai-voice-fixtures-v0.8.7-v1
+        copyHash: "sha256:3174ee809e5516a16cd7439427b0a23eb65ace1f3cf4e18d984cb4a52060b208"
+        naturalnessReviewRef: "pass: independent Thai copy audit and full-page rewrite 2026-08-01"
+        parityReviewRef: not_applicable_single_locale
+  experience:
+    trigger: "กรรมการเปิดหน้านี้หลังรับคำขอ เพื่อดูว่าโครงการคุ้มที่จะอนุมัติหรือไม่"
+    oneJob: "ตัดสินใจว่าจะสนับสนุนวงเงิน 9,489,990 บาทหรือไม่ โดยเห็นประโยชน์ งานที่ซื้อ หลักฐานความพร้อม และวิธีตรวจรับอย่างชัดเจน"
+    promisedOutcome: "ภายใน 30 วินาที กรรมการเข้าใจว่าเงินทุนไม่ได้ซื้อไฟล์ข้อมูลเปิด แต่ใช้ทำให้ VAT และ DBD กลายเป็นข้อมูลระดับ อปท. ที่เปรียบเทียบและตรวจสอบได้"
+    firstAha: "Landometer มีต้นแบบ 50,000 ระเบียนที่เปิดใช้ได้แล้ว และขอทุนเพื่อทำงานข้อมูล คุณภาพ และการทดสอบให้ใช้ได้ทั่วประเทศตามขอบเขตที่ยื่น"
+    ahaEvidenceCue: "ภาพต้นแบบจริงใน hero พร้อมตัวเลข 2 ผลผลิตหลัก ข้อมูล 3 รอบ และลิงก์เปิดระบบ"
+    primaryAction: "เปิดต้นแบบ CityMETER: Business Dynamics"
+    nextUsefulAction: "ดูตัวอย่างงานที่เจ้าหน้าที่เมืองทำได้จากข้อมูลส่งมอบ"
+    nextTriggerOrCleanCompletion: "เปิดเอกสารประกอบเมื่ออยากตรวจรายละเอียด หรือจบด้วยความเข้าใจว่าผลงานแต่ละงวดตรวจรับอย่างไร"
+    dominantObject: "CityMETER_DE_Fund_Application_Submission_Candidate_v5_2026-07-31@sha256:734c897a2b52bac340d7ad7d47f833cd682e54e231caac42bd105458a8f8f4da"
+    channelParityKey: citymeter-business-dynamics-submitted-grant-2026-07-31
+    brandSignatures: [Measure]
+    cleanCompletion: "กรรมการบอกได้ว่าโครงการช่วยงานเมืองอย่างไร เงินซื้ออะไร ผลส่งมอบมีอะไร และจะตรวจรับแต่ละงวดอย่างไร"
+  composition:
+    quietRegions: []
+    gradientSurfaces:
+      - sceneId: hero
+        role: entry
+        recipe: measure
+        sourceTokenRefs: [signature.gradient.closing.light, signature.gradient.closing.dark]
+        angle: 135deg
+        focalTarget: "#page-title"
+        readingDirection: headline_to_live_proof_to_action
+        foregroundStrategy: deterministic_scrim
+        logoPairing: none
+        contrastEvidence: "pending: rendered glyph sampling"
+        evidenceRef: "pending: qa/rendered"
+        deletionTest: improves
+      - sceneId: decision
+        role: closure
+        recipe: measure
+        sourceTokenRefs: [signature.gradient.closing.light, signature.gradient.closing.dark]
+        angle: 135deg
+        focalTarget: "#decision-title"
+        readingDirection: decision_to_conditions
+        foregroundStrategy: deterministic_scrim
+        logoPairing: none
+        contrastEvidence: "pending: rendered glyph sampling"
+        evidenceRef: "pending: qa/rendered"
+        deletionTest: improves
+    connectors: []
+  brandAlignment:
+    productStatement: "Product_Brief_CityMETER_Landometer_Aligned_v6.md@sha256:3c84c6b51fe0f8a288090ddaeb5b732c53f30234241103daa1d5a8baa0914448#1.1"
+    proofObject: "submission-receipt@sha256:498d3b6014659ba155b52456cfcfad860126ed6ac4b884c03958ea24b09598c7 + live-prototype@2026-07-29"
+    ahaProvesPromise: true
+    networkAdvancesObjective: false
+  investment:
+    mode: none_no_honest_investment
+    userBenefit: not_applicable
+  proof:
+    kind: documentary
+    object: "submission-receipt@sha256:498d3b6014659ba155b52456cfcfad860126ed6ac4b884c03958ea24b09598c7 + live-prototype@2026-07-29"
+    sourceStatus: observed
+    limitation: "คำขอยื่นแล้วเมื่อ 31 กรกฎาคม 2569 ตัวเลขในใบรับคำขอเป็นค่าล็อก และหน้านี้ไม่ใช่ประกาศอนุมัติทุน; การทำงานจริงต้องยึดสัญญา สิทธิข้อมูล และหลักฐานที่ตรวจได้"
+  analysis:
+    decisionQuestion: "ควรสนับสนุนโครงการ CityMETER: Business Dynamics วงเงิน 9,489,990 บาทหรือไม่"
+    objectId: citymeter-business-dynamics-submitted-grant
+    objectVersion: 2026-07-31
+    objectAndScope: "คำขอทุนเพื่อจัดทำข้อมูลทะเบียนธุรกิจเชิงพื้นที่ระดับประเทศ 2 ผลผลิตหลัก จากข้อมูลที่ตรึงไว้ 3 รอบ"
+    boundaryVersion: "ตามบัญชีหน่วยรายงานและขอบเขต อปท. ที่ต้องตรึงในงวด 1"
+    periodOrValidTime: "365 วันนับจากวันเริ่มตามสัญญา"
+    claimLabel: planned
+    signalClass: official
+    sourceAndDate: "PDF หลักฐานการยื่นวันที่ 31 กรกฎาคม 2569 และต้นแบบที่ตรวจเมื่อ 29 กรกฎาคม 2569"
+    methodOrRecipe: "เทียบใบรับคำขอ ร่างโครงการ และหลักฐานต้นแบบ"
+    recipeVersion: project-brief-v5-2026-07-31
+    confidence: "ตัวเลขและขอบเขตที่ปรากฏในใบรับคำขอเป็นค่าล็อก; รายละเอียดสิทธิและสัญญาบางส่วนยังต้องยืนยัน"
+    limitation: "ยังไม่มีผลอนุมัติ สัญญา หรือผลส่งมอบใหม่ของโครงการ"
+    missingness: "ยอดบาทรายงวดและรายละเอียดสิทธิบางรายการรอสัญญาหรือหนังสือกองทุน"
+    supportingSignals:
+      - "ต้นแบบ 50,000 ระเบียนเปิดใช้งานสาธารณะ"
+      - "ผลผลิต งบ และกำหนดเวลาแยกเป็นงวดตรวจรับได้"
+      - "ทีม 11 บทบาทรวม 78 คน-เดือน"
+    strongestCounterSignal: "ข้อมูล VAT และ DBD เป็นข้อมูลเปิดอยู่แล้ว จึงต้องอธิบายให้ชัดว่าเงินซื้อการทำให้ใช้ได้ระดับ อปท. ไม่ใช่ซื้อไฟล์ต้นทาง"
+    assumptions:
+      - "สิทธิใช้และส่งมอบแหล่งข้อมูลผ่านการยืนยันในงวด 1"
+      - "กองทุนกำหนดยอดบาทรายงวดและเงื่อนไขตรวจรับในสัญญา"
+    sensitivity: "หากสิทธิ DBD หรือค่าใช้จ่าย CityMETER ไม่ผ่าน ต้องหยุดส่วนที่ได้รับผลกระทบและขอคำสั่งเป็นลายลักษณ์อักษร"
+    materialReversalWarning: "การไม่ยืนยันสิทธิข้อมูลหรือรายการค่าใช้จ่ายก่อนเริ่มงานอาจทำให้ต้องปรับสัญญา"
+    allowedUses:
+      - "ประกอบการพิจารณาทุน"
+      - "เตรียมคำชี้แจงและสัญญา"
+    publishability: public
+    nextSafeAction: "เปิดต้นแบบและตรวจเอกสารประกอบ ก่อนตัดสินใจหรือกำหนดเงื่อนไข"
+  assets:
+    officialLogo: available
+    officialLogoAsset:
+      id: landometer-horizontal-fullcolor-embedded-v2026-07
+      variant: transparent-horizontal-full-color
+      sha256: f6ed8748d32d11514c94ce6a639491120489ce8c3ab6fff073d7ca9638a87535
+      canvas: transparent
+      placement: direct_surface
+      surfacePairingRef: header-white-both-themes
+      identityApproval:
+        id: user-confirmed-transparent-logo-2026-07-28
+        authorityRole: brand_identity_authority
+        delegatedAuthorityRecordId: none
+        decision: direct_surface
+        assetId: landometer-horizontal-fullcolor-embedded-v2026-07
+        variant: transparent-horizontal-full-color
+        sha256: f6ed8748d32d11514c94ce6a639491120489ce8c3ab6fff073d7ca9638a87535
+        canvas: transparent
+        placement: direct_surface
+        surfaceRef: header-white-both-themes
+        themesOrBackdrops: ["light:#FFFFFF", "dark:#FFFFFF"]
+        recordVersion: "1"
+        validFrom: "2026-07-28"
+        expiresAt: null
+        evidenceRef: "project instruction to use the attached transparent Landometer logo"
+    approvedPhotography: []
+    approvedWorkProof:
+      - citymeter-business-dynamics-national-2026-07-29
+      - citymeter-business-dynamics-chiangmai-municipality-2026-07-29
+    mediaAssets:
+      - assetId: citymeter-business-dynamics-national-2026-07-29
+        variant: public-live-product-screenshot-optimized
+        sha256: c7e0166d8d5447f04e47d4efdf0691f0205fa67b41accd5868159cb937bf521c
+        permissionRecordId: user-directed-citymeter-proof-2026-07-29
+        sourceOrOwner: Landometer.com
+        creatorCredit: Landometer
+        context: "หน้า CityMETER Business Dynamics มุมมองประเทศ"
+        capturedAt: "2026-07-29"
+        dimensionsPx: 960x659
+        cropOrRedaction: "ย่อภาพเต็มหน้าจอ ไม่มีการปิดบัง"
+        altText: "หน้าจอ CityMETER Business Dynamics แสดงแผนที่ประเทศไทยจากต้นแบบ 50,000 ระเบียน"
+        displayedCredit: "ภาพจากหน้าเว็บจริงที่ตรวจเมื่อ 29 กรกฎาคม 2569"
+        privacyScreenReview: pass
+        approvedUse: "หลักฐานต้นแบบในเว็บคำขอทุนสาธารณะ"
+      - assetId: citymeter-business-dynamics-chiangmai-municipality-2026-07-29
+        variant: public-live-product-screenshot
+        sha256: 4b8f14656e20bf3471c6ebffef9adc173ddc6b1ad26b128f924142f08d479fe4
+        permissionRecordId: user-directed-citymeter-proof-2026-07-29
+        sourceOrOwner: Landometer.com
+        creatorCredit: Landometer
+        context: "หน้า CityMETER Business Dynamics ตัวอย่างเทศบาลนครเชียงใหม่"
+        capturedAt: "2026-07-29"
+        dimensionsPx: 1363x936
+        cropOrRedaction: "ภาพเต็มหน้าจอ ไม่มีการปิดบัง"
+        altText: "หน้าจอ CityMETER Business Dynamics แสดงขอบเขตเทศบาลนครเชียงใหม่และข้อมูลสถานประกอบการ"
+        displayedCredit: "ภาพจากหน้าเว็บจริงที่ตรวจเมื่อ 29 กรกฎาคม 2569"
+        privacyScreenReview: pass
+        approvedUse: "หลักฐานต้นแบบในเว็บคำขอทุนสาธารณะ"
+    permissionRecords:
+      - id: user-directed-citymeter-proof-2026-07-29
+        owner: Landometer
+        assetIds:
+          - citymeter-business-dynamics-national-2026-07-29
+          - citymeter-business-dynamics-chiangmai-municipality-2026-07-29
+        permittedUse: "แสดงภาพต้นแบบ CityMETER บนเว็บคำขอทุนนี้"
+        variantsAndHashes:
+          - public-live-product-screenshot-optimized:c7e0166d8d5447f04e47d4efdf0691f0205fa67b41accd5868159cb937bf521c
+          - public-live-product-screenshot:4b8f14656e20bf3471c6ebffef9adc173ddc6b1ad26b128f924142f08d479fe4
+        expiry: none
+  theme:
+    mode: interactive_auto
+    support: dual
+    default: system
+    visibleOverride: true
+    exception:
+      ruleId: not_applicable
+      owner: not_applicable
+      approver: not_applicable
+      reason: not_applicable
+      createdAt: not_applicable
+      expiry: not_applicable
+      mitigation: not_applicable
+      evidencePath: not_applicable
+      trackingTicket: not_applicable
+  motion:
+    intensity: guided
+  capabilities:
+    analyticalEvidence: true
+    motionEnhancement: false
+    personalization: false
+    search: true
+    share: false
+    map: false
+    dataVisualization: true
+    coCreation: false
+    persistence: false
+    externalSideEffect: false
+    authentication: false
+    permissions: false
+    contextDiscovery: false
+    agentReadable: false
+    boundedAgentAction: false
+    agentActionEffect: none
+    fullLivingReference: false
+  agentAction:
+    targetObjects: []
+    scope: not_applicable
+    boundary: not_applicable
+    confirmation: none
+    allowedEffects: []
+  referenceFixtures: []
+  privacy:
+    personalData: true
+    sensitivity: internal
+    redactedPublicProjection: true
+    governanceRecord:
+      id: de-fund-public-cv-projection-2026-07-31
+      owner: Landometer project owner
+      collectionBasisAndMinimumFields: "ใช้ชื่อ บทบาท ประสบการณ์ และคน-เดือนเพื่อประกอบคุณสมบัติทีมตามคำขอที่ยื่น"
+      accessAndRetentionDeletion: "PDF ต้นฉบับอยู่ใน Drive แบบจำกัดสิทธิ; ฉบับเว็บอยู่กับหน้าโครงการและถอนได้เมื่อเจ้าของโครงการสั่ง"
+      redactionAndExportRules: "ฉบับเว็บตัดที่อยู่ อีเมล โทรศัพท์ และลายมือชื่อ; ไม่ฝังข้อความหรือ metadata ที่ปิดบังไว้"
+      reviewStatusAndDate: "public web-safe copies created and checked 2026-07-31"
+  telemetry:
+    enabled: false
+    scope: none
+    purpose: not_applicable
+    dataClasses: []
+    retention: not_applicable
+    privacyBasis: not_applicable
+    governanceRecord:
+      id: not_applicable
+      owner: not_applicable
+      accessCorrectionDeletion: not_applicable
+      reviewDate: not_applicable
+  network:
+    mode: reference_ready
+    action: none
+    recipientOutcome: "กรรมการใช้ URL เดียวกันเพื่อเปิดต้นแบบและเอกสารอ้างอิง"
+    policyReason: "หน้าเว็บไม่มีการส่งข้อความ เชิญบุคคล หรือเผยแพร่ข้อมูลใหม่แทนผู้ใช้"
+  qa:
+    evidencePath: qa/rendered-qa.md
+    controlInventoryPath: qa/control-inventory.yaml
