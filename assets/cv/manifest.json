@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "purpose": "Public web-safe CV previews for the CityMETER DE Fund explainer",
+  "sourcePolicy": "Original evidence PDFs remain access-controlled in Google Drive",
+  "privacyTransformations": [
+    "withhold personal address block",
+    "withhold email and telephone fields",
+    "withhold signature imagery",
+    "rasterize every page to remove the source text layer and embedded metadata"
+  ],
+  "files": [
+    {
+      "roleId": "B1",
+      "file": "b1-web.pdf",
+      "pages": 3,
+      "sha256": "148348114516c3527a8623e108887d5dc0efbbef59c4391d9333a6080b163643"
+    },
+    {
+      "roleId": "B2",
+      "file": "b2-web.pdf",
+      "pages": 3,
+      "sha256": "5467222bc07ddd415a0b7838e8f76d1fd05392d848926e3381b74dee8223a6f7"
+    },
+    {
+      "roleId": "B3",
+      "file": "b3-web.pdf",
+      "pages": 3,
+      "sha256": "55f4e3a2fc8240593664bf95dda1564d64926cb6547e813e2ae5237c247762aa"
+    },
+    {
+      "roleId": "B4",
+      "file": "b4-web.pdf",
+      "pages": 3,
+      "sha256": "5646550244ec7511127efc239c1d2306e2cd280ddf3a61c46943595783732260"
+    },
+    {
+      "roleId": "B5",
+      "file": "b5-web.pdf",
+      "pages": 3,
+      "sha256": "6966dcec872a3b753786060612d16d574efe2f0d7c0df3ea7d60ba6dcbf5d9ee"
+    },
+    {
+      "roleId": "B6",
+      "file": "b6-web.pdf",
+      "pages": 3,
+      "sha256": "75009306c0dbee9572d056c2ae79f9e6022f90c86493753b315eb2a6fac311f6"
+    },
+    {
+      "roleId": "B7",
+      "file": "b7-web.pdf",
+      "pages": 3,
+      "sha256": "d6c1636b39719a5bec69c6f4712fb361de110d9c9bce0207c5a29602b1417351"
+    },
+    {
+      "roleId": "B8",
+      "file": "b8-web.pdf",
+      "pages": 3,
+      "sha256": "cb44f34bdffcdcf4a9a2c6d3b022531fb9414c278203b7237f9548469804f46e"
+    },
+    {
+      "roleId": "B9",
+      "file": "b9-web.pdf",
+      "pages": 3,
+      "sha256": "63590e9a4f0f5cba2a893321e00faf40a43f29aa9824d7c4b70e1a9cdbcfdfd9"
+    },
+    {
+      "roleId": "B10",
+      "file": "b10-web.pdf",
+      "pages": 3,
+      "sha256": "1105a66db68ce542315af104cfe0c7c78bcb69569a3fb57a026e248cc4ec97e0"
+    },
+    {
+      "roleId": "B11",
+      "file": "b11-web.pdf",
+      "pages": 3,
+      "sha256": "b97555055e2469224f24674fc2a6954af9a737735968be1252e14ba6b8652e7c"
+    }
+  ]
+}
