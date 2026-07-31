@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /DE-Fund-CityMETER-Business-Dynamics/assets/cv/
+Disallow: /assets/cv/
